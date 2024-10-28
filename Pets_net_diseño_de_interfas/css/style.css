@@ -1,0 +1,30 @@
+
+A:link{
+    color: rgb(255, 0, 0);
+}
+A:visited {
+    color: #090058
+}
+A:hover {
+    color: rgb(109, 8, 8);
+}
+A:active {
+    color: rgb(128, 128, 128);
+}
+.Title2 {
+    text-align: center;
+}
+header {
+    background-color: #FFCD48;
+}
+body{
+    background-color: silver;
+}
+input {
+    text-align: center;
+    
+}
+
+.header2{
+    background-color: #FFCD48;
+}
