@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/style2.css">
+    <title>refujios</title>
+</head>
+<body>
+    <header class="header2">
+        
+            <div>
+                <input tipe = "text" class="barra-de-busqueda" placeholder="buscar....">
+                <button>buscar</button>
+            </div>    
+
+    </header>
+    <main>
+        <div class="carrusel">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <section class="refugios">
+                        <h2>Refugios Punilla</h2>
+                        <div class="refugio-list">
+                            <div class="refugio-item">
+                                <img src="refugio1.jpg" alt="San perritos">
+                                <p>San perritos, La Falda</p>
+                            </div>
+                            <div class="refugio-item">
+                                <img src="refugio2.jpg" alt="Huellas sin penas">
+                                <p>Huellas sin penas, Valle Hermoso</p>
+                            </div>
+                            <div class="refugio-item">
+                                <img src="refugio3.jpg" alt="Conciencia Animal">
+                                <p>Conciencia Animal, Cosquín</p>
+                            </div>
+                            <div class="refugio-item">
+                                <img src="refugio4.jpg" alt="Patitas">
+                                <p>Patitas, Santa María</p>
+                            </div>
+                        </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </main>
+   
+    <footer>
+            <p class="F">derechos reservados a la escuela ProA la falda</p>
+            <img src="img/ig.jpeg" alt="logo de instagram" height="50px" width="50px"  >
+            <img src="img/logoTransparente-1.png" alt="lodo del ProA la Falda" height="50px" width="50px" >
+ 
+        </footer> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="buscador.js"></script>
+</body>
+</html>
+
+
+
+
+
+QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets.net</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="imgenes/logo.jpeg">
+</head>
+<body>
+    <nav id="sidebar">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo/logoPets.net.png" Logo Pets.net width="170" height="56"></a>
+        </div>
+<ul>
+    <li><a href="index.html"><img src="img/Iconos menu/hogar.svg" alt="Icono Inicio" width="25" height="25"><span>Inicio</span></a></li>
+    <li><a href="noticias.html"><img src="img/Iconos menu/periodico.svg" alt="Icono Noticias" width="25" height="25"><span>Noticias</span></a></li>
+    <li><a href="mascotas.html"><img src="img/Iconos menu/pata.svg" alt="Icono Mascotas"width="25" height="25"><span>Mascotas</span></a></li>
+    <li><a href="calendario.html"><img src="img/Iconos menu/dia-del-calendario.svg" alt="Icono Calendario"width="25" height="25"><span>Calendario</span></a></li>
+    <li><a href="instituciones.html"><img src="img/Iconos menu/techo-de-personas.svg" alt="Icono Instituciones"width="25" height="25"><span>Instituciones</span></a></li>
+    <li><a href="nosotros.html"><img src="img/Iconos menu/informacion.svg" alt="Icono Nosotros" width="25" height="25"><span>Nosotros</span></a></li>
+    <li><a href="sugerencias.html"><img src="img/Iconos menu/interrogatorio.svg" alt="Icono Sugerencias" width="25" height="25"><span>Sugerencias</span></a></li>
+    <li><a href="configuracion.html"><img src="img/Iconos menu/ajustes.svg" alt="Icono configuracion" width="25" height="25"><span>Configuración</span></a></li>
+</ul>
+    </nav>
+
+    <div id="main-content">
+        <header>
+            <input type="text" placeholder="Buscar...">
+        </header>
+        <main>
+            <section class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="item1" checked>
+                    <input type="radio" name="radio-btn" id="item2">
+                    <input type="radio" name="radio-btn" id="item3">
+                    <input type="radio" name="radio-btn" id="item4">
+
+                    <div class="slide first">
+                        <h2>Item 1</h2>
+                        <p>Descripción del primer ítem.</p>
+                    </div>
+                    <div class="slide">
+                        <h2>Item 2</h2>
+                        <p>Descripción del segundo ítem.</p>
+                    </div>
+                    <div class="slide">
+                        <h2>Item 3</h2>
+                        <p>Descripción del tercer ítem.</p>
+                    </div>
+                    <div class="slide">
+                        <h2>Item 4</h2>
+                        <p>Descripción del cuarto ítem.</p>
+                    </div>
+
+                    <div class="navigation">
+                        <label for="item1" class="nav-btn"></label>
+                        <label for="item2" class="nav-btn"></label>
+                        <label for="item3" class="nav-btn"></label>
+                        <label for="item4" class="nav-btn"></label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="refugios">
+                <h2>Refugios Punilla</h2>
+                <div class="refugio-list">
+                    <div class="refugio-item">
+                        <img src="refugio1.jpg" alt="San perritos">
+                        <p>San perritos, La Falda</p>
+                    </div>
+                    <div class="refugio-item">
+                        <img src="refugio2.jpg" alt="Huellas sin penas">
+                        <p>Huellas sin penas, Valle Hermoso</p>
+                    </div>
+                    <div class="refugio-item">
+                        <img src="refugio3.jpg" alt="Conciencia Animal">
+                        <p>Conciencia Animal, Cosquín</p>
+                    </div>
+                    <div class="refugio-item">
+                        <img src="refugio4.jpg" alt="Patitas">
+                        <p>Patitas, Santa María</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+<script src="JS/buscador.js"></script>
+</html>```
